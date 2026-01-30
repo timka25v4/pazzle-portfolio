@@ -1,0 +1,112 @@
+﻿namespace Lesson19
+{
+	internal class Program
+	{
+		static void Main(string[] args)
+		{
+			var numbers = new List<int> { 12, 5, 8, 19, 3 };
+			
+			Console.WriteLine($"Исходный список: {string.Join(", ",numbers)}");
+			
+			numbers.Sort();
+			
+			Console.WriteLine("Отсортированный: " + string.Join( ", ", numbers) );
+			
+			int min = numbers[0];
+			
+			int max = numbers[^1];
+			
+			Console.WriteLine($"Минимум: {min}, Максимум: {max}");
+			
+			numbers.Reverse();
+			
+			Console.WriteLine("После Reverse: " + string.Join(", ", numbers));
+			
+			Console.WriteLine("----------------------------");
+
+			var phonebook = new Dictionary<string, string>();
+
+			phonebook.Add("Анна", "8921-123-45-67");
+			phonebook.Add("Иван", "8931-555-77-88");
+			phonebook.Add("Ольга", "8905-111-22-33");
+
+			string name = "Иван";
+			if (phonebook.ContainsKey(name))
+			{
+				Console.WriteLine($"Телефон {name}: {phonebook[name]}");
+			}
+			name = "Пётр";
+			if (phonebook.TryGetValue(name, out var phone))
+				Console.WriteLine($"Телефон {name}: {phone}");
+			else
+				Console.WriteLine($"Контакт {name} не найден");
+
+			Console.WriteLine("----------------------------");
+
+			var clients = new Queue<string>();
+
+			clients.Enqueue("Анна");
+			clients.Enqueue("Иван");
+			clients.Enqueue("Мария");
+			clients.Enqueue("Олег");
+
+			Console.WriteLine($"Первый в очереди: {clients.Peek()}");
+
+			while (clients.Count > 0)
+			{
+				string c = clients.Dequeue();
+				Console.WriteLine($"Обслужен клиент: {c}");
+			}
+			Console.WriteLine("Очередь пуста");
+
+			Console.WriteLine("----------------------------");
+
+			var actions = new Stack<string>();
+
+			actions.Push("Открыт документ");
+			actions.Push("Написан текст");
+			actions.Push("Удалён абзац");
+
+			Console.WriteLine($"Верхнее действие: {actions.Peek()}");
+
+			while (actions.Count > 0)
+			{
+				string act = actions.Pop();
+				Console.WriteLine($"Отмена действия: {act}");
+				Console.WriteLine($"Осталось действий: {actions.Count}");
+			}
+
+			Console.WriteLine("----------------------------");
+
+			var prices = new Dictionary<string, int>
+			{
+				{ "Кофе", 150 },
+				{ "Чай", 100 },
+				{ "Сэндвич", 250 }
+			};
+
+			var customers = new Queue<string>();
+			customers.Enqueue("Анна");
+			customers.Enqueue("Иван");
+
+			var orderItems = new List<string> { "Кофе", "Сэндвич" };
+
+			Console.WriteLine("Обслуживание клиентов:");
+			while (customers.Count > 0)
+			{
+				var client = customers.Dequeue();
+				Console.WriteLine($"\nКлиент {client}:");
+
+				int total = 0;
+				foreach (var item in orderItems)
+				{
+					int price = prices[item];
+					total += price;
+					Console.WriteLine($"  {item} -- {price} руб.");
+				}
+				Console.WriteLine($"Итого: {total} руб.");
+			}
+		}
+	}
+
+}
