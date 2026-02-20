@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\models\\dayscheduleclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:models\\dayscheduleclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\week.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:week.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\commands\\weekcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:commands\\weekcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\commands\\dayschedulecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:commands\\dayschedulecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\commands\\commanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15289D05-DF1E-354E-EA13-D1EDABD8D2E1}|project 13.02.csproj|solutionrelative:commands\\commanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,78 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T16:16:26.744Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "week.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\week.cs",
-              "RelativeDocumentMoniker": "week.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\week.cs",
-              "RelativeToolTip": "week.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
+              "Title": "WeekCommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\WeekCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\WeekCommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\WeekCommand.cs",
+              "RelativeToolTip": "Commands\\WeekCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T16:09:26.898Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-02-20T16:33:43.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "help.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\help.cs",
-              "RelativeDocumentMoniker": "help.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\help.cs",
-              "RelativeToolTip": "help.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Title": "StartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\StartCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\StartCommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\StartCommand.cs",
+              "RelativeToolTip": "Commands\\StartCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T17:45:57.272Z",
+              "WhenOpened": "2026-02-20T16:33:42.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "schedule.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\schedule.cs",
-              "RelativeDocumentMoniker": "schedule.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\schedule.cs",
-              "RelativeToolTip": "schedule.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAD8AAAAiAAAAAAAAAA==",
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\ICommand.cs",
+              "RelativeDocumentMoniker": "Commands\\ICommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\ICommand.cs",
+              "RelativeToolTip": "Commands\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T17:11:38.861Z",
+              "WhenOpened": "2026-02-20T16:33:41.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HelpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\HelpCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\HelpCommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\HelpCommand.cs",
+              "RelativeToolTip": "Commands\\HelpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:33:40.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DayScheduleClass.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Models\\DayScheduleClass.cs",
+              "RelativeDocumentMoniker": "Models\\DayScheduleClass.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Models\\DayScheduleClass.cs",
+              "RelativeToolTip": "Models\\DayScheduleClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:33:28.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DayScheduleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\DayScheduleCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\DayScheduleCommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\DayScheduleCommand.cs",
+              "RelativeToolTip": "Commands\\DayScheduleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:33:35.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommandDispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\CommandDispatcher.cs",
+              "RelativeDocumentMoniker": "Commands\\CommandDispatcher.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\Commands\\CommandDispatcher.cs",
+              "RelativeToolTip": "Commands\\CommandDispatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T16:33:34.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "start.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\start.cs",
-              "RelativeDocumentMoniker": "start.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\projects\\c1-project1\\project 13.02\\start.cs",
-              "RelativeToolTip": "start.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T16:45:27.585Z",
-              "EditorCaption": ""
             }
           ]
         }
