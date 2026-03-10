@@ -1,4 +1,6 @@
-﻿namespace ChatBot.Dtos
+﻿using Telegram.Bot.Types;
+
+namespace ChatBot.Dtos
 {
 	public class TelegramMessage
 	{

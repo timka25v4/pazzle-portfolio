@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\dto\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:dto\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\controllers\\telegramupdateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:controllers\\telegramupdateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\controllers\\ibotcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:controllers\\ibotcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +42,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "IBotCommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Controllers\\IBotCommand.cs",
+              "RelativeDocumentMoniker": "Controllers\\IBotCommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Controllers\\IBotCommand.cs",
+              "RelativeToolTip": "Controllers\\IBotCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:45:56.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelegramUpdateProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Controllers\\TelegramUpdateProcessor.cs",
+              "RelativeDocumentMoniker": "Controllers\\TelegramUpdateProcessor.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Controllers\\TelegramUpdateProcessor.cs",
+              "RelativeToolTip": "Controllers\\TelegramUpdateProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:45:31.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UpdateController.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Controllers\\UpdateController.cs",
               "RelativeDocumentMoniker": "Controllers\\UpdateController.cs",
               "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Controllers\\UpdateController.cs",
               "RelativeToolTip": "Controllers\\UpdateController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T16:45:49.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TelegramMessage.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\DTO\\TelegramMessage.cs",
               "RelativeDocumentMoniker": "DTO\\TelegramMessage.cs",
               "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\DTO\\TelegramMessage.cs",
               "RelativeToolTip": "DTO\\TelegramMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T16:45:14.922Z",
               "EditorCaption": ""
@@ -66,23 +100,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T16:56:18.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-03T16:28:45.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T16:28:45.888Z"
             }
           ]
         }

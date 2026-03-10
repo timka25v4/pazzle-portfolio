@@ -1,4 +1,5 @@
-﻿using ChatBot.Dtos;
+﻿using ChatBot.Commands;
+using ChatBot.Dtos;
 using Microsoft.AspNetCore.Mvc;
 namespace ChatBot.Controllers
 {
@@ -6,10 +7,16 @@ namespace ChatBot.Controllers
 	[Route("api/[controller]")]
 	public class UpdateController : ControllerBase
 	{
+		private readonly TelegramUpdateProcessor _processor;
+		public UpdateController(TelegramUpdateProcessor processor)
+		{
+			_processor = processor;
+		}
+
 		[HttpPost]
 		public async Task<IActionResult> Post([FromBody] TelegramUpdate update)
 		{
-			Console.WriteLine(update?.Message?.Text);
+			_processor.Handle(update);
 			return Ok();
 		}
 	}
