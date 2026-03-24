@@ -1,5 +1,4 @@
-﻿using ChatBot.Commands;
-using ChatBot.Dtos;
+﻿using ChatBot.Dtos;
 using Telegram.Bot;
 public class StartCommand : IBotCommand
 {

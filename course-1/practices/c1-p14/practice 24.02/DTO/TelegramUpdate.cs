@@ -9,3 +9,4 @@ namespace ChatBot.Dtos
 		public TelegramMessage? Message { get; set; }
 		public TelegramMessage? EditedMessage { get; set; }
 	}
+}
