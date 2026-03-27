@@ -13,25 +13,26 @@ namespace ChatBot.Repositories.Implementations
 	public class HttpChatApiClient : IChatApiClient
 	{
 		private readonly HttpClient _httpClient;
-		private readonly ChatApiSettings _settings;
+		private readonly ChatApiSettings _chatSettings;
 
-		public HttpChatApiClient(HttpClient httpClient, IOptions<ChatApiSettings> options)
+		public HttpChatApiClient(HttpClient httpClient, IOptions<ChatApiSettings> chatOptions)
 		{
+			_chatSettings = chatOptions.Value;
 			_httpClient = httpClient;
-			_settings = options.Value;
 
-			_httpClient.BaseAddress = new Uri(_settings.BaseUrl);
-			_httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _settings.ApiKey);
+			_httpClient.BaseAddress = new Uri(_chatSettings.BaseUrl);
+			_httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _chatSettings.ApiKey);
 		}
 
 		public async Task<string> SendMessageAsync(string userMessage, IEnumerable<OpenApiResponse.Message> history)
 		{
 			var payload = new OpenApiRequest()
 			{
-				Model = _settings.DefaultModel,
+				Model = _chatSettings.DefaultModel,
 				Messages = history.ToList(),
 				MaxTokens = 1000
 			};
+
 			var response = await _httpClient.PostAsJsonAsync("", payload);
 			response.EnsureSuccessStatusCode();
 
@@ -40,8 +41,10 @@ namespace ChatBot.Repositories.Implementations
 			{
 				return body.Choices[0].Message.Content;
 			}
+
 			return await response.Content.ReadAsStringAsync();
 		}
 	}
 }
+
 

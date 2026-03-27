@@ -4,5 +4,5 @@
 	{
 		public string BotToken { get; set; } = string.Empty;
 	}
-
 }
+
