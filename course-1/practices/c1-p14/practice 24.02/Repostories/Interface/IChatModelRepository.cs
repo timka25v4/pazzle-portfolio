@@ -1,10 +1,14 @@
-﻿namespace practice_24._02.Repostories.Interface{
+﻿using ChatBot.Dtos;
 using ChatBot.Repositories.Models;
 
-
-	public interface IChatModelRepository
+namespace ChatBot.Repositories.Interfaces
 	{
-		Task<List<OpenApiResponse.Message>> GetHistoryAsync(long chatId);
-		Task AddMessageAsync(long chatId, OpenApiResponse.Message message);
+		public interface IChatModelRepository
+		{
+			Task<List<OpenApiResponse.Message>> GetHistoryAsync(long chatId);
+			Task AddMessageAsync(long chatId, OpenApiResponse.Message message);
+			Task<ChatStats> GetStatsAsync(long chatId);
+			Task ClearHistoryAsync(long chatId);
+		}
 	}
-}
+

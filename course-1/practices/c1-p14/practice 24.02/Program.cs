@@ -1,14 +1,20 @@
+using ChatBot.Commands;
 using ChatBot.Repositories.Implementations;
 using ChatBot.Repositories.Interfaces;
 using ChatBot.Settings;
-using practice_24._02.Commands;
-using practice_24._02.Repostories;
-using practice_24._02.Repostories.Interface;
+using Serilog;
 using Telegram.Bot;
+// Настройка Serilog: логи в консоль и в файл
+Log.Logger = new LoggerConfiguration()
+.WriteTo.Console()
+.WriteTo.File("logs/app-.log", rollingInterval: RollingInterval.Day)
+.CreateBootstrapLogger();
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Host.UseSerilog();
 
+// Add services to the container.
 builder.Services.AddControllers().AddNewtonsoftJson();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -29,9 +35,10 @@ builder.Services.AddSingleton<ITelegramBotClient>(sp =>
 builder.Services.AddSingleton<IBotCommand, StartCommand>();
 builder.Services.AddSingleton<IBotCommand, HelpCommand>();
 builder.Services.AddSingleton<TelegramUpdateProcessor>();
-builder.Services.Configure<ChatApiSettings>(builder.Configuration.GetSection("ChatApiSettings"));
 builder.Services.AddHttpClient<IChatApiClient, HttpChatApiClient>();
 builder.Services.AddSingleton<IChatModelRepository, ChatModelRepository>();
+builder.Services.AddSingleton<IBotCommand, StatsCommand>();
+builder.Services.AddSingleton<IBotCommand, ClearCommand>();
 
 var app = builder.Build();
 
@@ -50,3 +57,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

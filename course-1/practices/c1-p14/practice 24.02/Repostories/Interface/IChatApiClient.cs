@@ -1,8 +1,6 @@
 ﻿namespace ChatBot.Repositories.Interfaces;
-
+using ChatBot.Repositories.Models;
 public interface IChatApiClient
 {
-	Task<string> SendMessageAsync(string userMessage);
+	Task<string> SendMessageAsync(string userMessage, IEnumerable<OpenApiResponse.Message> history);
 }
-
-

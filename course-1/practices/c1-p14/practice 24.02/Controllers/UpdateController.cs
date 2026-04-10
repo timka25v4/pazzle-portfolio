@@ -1,6 +1,6 @@
-﻿using ChatBot.Dtos;
+﻿using ChatBot.Commands;
+using ChatBot.Dtos;
 using Microsoft.AspNetCore.Mvc;
-using practice_24._02.Commands;
 namespace ChatBot.Controllers
 {
 	[ApiController]
