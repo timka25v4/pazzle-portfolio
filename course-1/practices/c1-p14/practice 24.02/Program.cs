@@ -39,6 +39,7 @@ builder.Services.AddHttpClient<IChatApiClient, HttpChatApiClient>();
 builder.Services.AddSingleton<IChatModelRepository, ChatModelRepository>();
 builder.Services.AddSingleton<IBotCommand, StatsCommand>();
 builder.Services.AddSingleton<IBotCommand, ClearCommand>();
+builder.Services.AddSingleton<IBotCommand, UndoCommand>();
 
 var app = builder.Build();
 

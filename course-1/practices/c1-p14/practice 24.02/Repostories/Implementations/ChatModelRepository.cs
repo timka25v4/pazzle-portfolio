@@ -34,6 +34,7 @@ namespace ChatBot.Repositories.Implementations
 
 		public Task<ChatStats> GetStatsAsync(long chatId)
 		{
+			_logger.LogInformation("Подсчёт статистики для чата {ChatId}", chatId);
 			_store.TryGetValue(chatId, out var list);
 
 			var stats = new ChatStats();
@@ -62,10 +63,29 @@ namespace ChatBot.Repositories.Implementations
 
 		public Task ClearHistoryAsync(long chatId)
 		{
+			_logger.LogInformation("Очистка истории для чата {ChatId}", chatId);
 			_store.TryRemove(chatId, out _);
 			return Task.CompletedTask;
 		}
+
+		public Task<bool> RemoveLastMessageAsync(long chatId)
+		{
+			_logger.LogInformation("Удаление последнего сообщения для чата {ChatId}", chatId);
+			_store.TryGetValue(chatId, out var list);
+
+			if (list != null && list.Count > 0)
+			{
+				lock (list)
+				{
+					if (list.Count > 0)
+					{
+						list.RemoveAt(list.Count - 1);
+						return Task.FromResult(true);
+					}
+				}
+			}
+
+			return Task.FromResult(false);
+		}
 	}
 }
-
-

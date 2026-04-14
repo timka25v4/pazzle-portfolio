@@ -13,32 +13,19 @@ namespace ChatBot.Commands
 		}
 
 		public string Trigger => "/help";
-
 		public async Task ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, long chatId)
 		{
-			_logger.LogInformation("Выполнение команды /help для ChatId: {ChatId}", chatId);
-
-			try
-			{
-				await SendHelpMessage(bot, chatId);
-
-				_logger.LogInformation("Команда /help успешно выполнена для {ChatId}", chatId);
-			}
-			catch (Exception ex)
-			{
-				_logger.LogError(ex, "Ошибка при выполнении /help");
-			}
+			_logger.LogInformation("Команда /help выполнена для чата {ChatId}", chatId);
+			var message = "Список доступных команд\n\n" +
+						  "/start -- начало работы\n" +
+						  "/help -- показать этот список\n" +
+						  "/stats -- статистика чата (сообщения, токены)\n" +
+						  "/clear -- очистить историю переписки\n" +
+						  "/summarize -- краткий пересказ диалога\n" +
+						  "/undo -- удалить последнее сообщение";
+			await bot.SendTextMessageAsync(chatId, message);
 		}
-		private async Task SendHelpMessage(ITelegramBotClient botClient, long chatId)
-		{
-			string helpText =
-				"Доступные команды:\n" +
-				"/start - Запустить бота\n" +
-				"/stats - Показать статистику\n" +
-				"/clear - Очистить историю данных\n" +
-				"/help - Показать это сообщение";
 
-			await botClient.SendTextMessageAsync(chatId, helpText);
-		}
 	}
 }
+
