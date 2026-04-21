@@ -1,4 +1,8 @@
-﻿namespace ChatBot.Commands
+﻿using ChatBot.Dtos;
+using ChatBot.Repositories.Interfaces;
+using Telegram.Bot;
+
+namespace ChatBot.Commands
 {
 	public class UndoCommand : IBotCommand
 	{
@@ -14,6 +18,8 @@
 		}
 
 		public string Trigger => "/undo";
+
+		string IBotCommand.Trigger => throw new NotImplementedException();
 
 		public async Task ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, long chatId)
 		{
@@ -32,6 +38,11 @@
 			{
 				await bot.SendTextMessageAsync(chatId, "История пуста. Нечего удалять.");
 			}
+		}
+
+		Task IBotCommand.ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, long chatId)
+		{
+			throw new NotImplementedException();
 		}
 	}
 }

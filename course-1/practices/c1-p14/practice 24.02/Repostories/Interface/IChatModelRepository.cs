@@ -10,6 +10,7 @@ namespace ChatBot.Repositories.Interfaces
 		Task<ChatStats> GetStatsAsync(long chatId);
 		Task ClearHistoryAsync(long chatId);
 		Task<bool> RemoveLastMessageAsync(long chatId);
+		Task<string> GetAiResponseAsync(long chatId, string prompt);
 	}
 }
 

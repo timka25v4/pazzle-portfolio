@@ -87,5 +87,35 @@ namespace ChatBot.Repositories.Implementations
 
 			return Task.FromResult(false);
 		}
+
+		Task<List<OpenApiResponse.Message>> IChatModelRepository.GetHistoryAsync(long chatId)
+		{
+			throw new NotImplementedException();
+		}
+
+		Task IChatModelRepository.AddMessageAsync(long chatId, OpenApiResponse.Message message)
+		{
+			throw new NotImplementedException();
+		}
+
+		Task<ChatStats> IChatModelRepository.GetStatsAsync(long chatId)
+		{
+			throw new NotImplementedException();
+		}
+
+		Task IChatModelRepository.ClearHistoryAsync(long chatId)
+		{
+			throw new NotImplementedException();
+		}
+
+		Task<bool> IChatModelRepository.RemoveLastMessageAsync(long chatId)
+		{
+			throw new NotImplementedException();
+		}
+
+		Task<string> IChatModelRepository.GetAiResponseAsync(long chatId, string prompt)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

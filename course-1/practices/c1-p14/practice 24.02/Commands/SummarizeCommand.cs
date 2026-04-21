@@ -1,4 +1,9 @@
-﻿namespace ChatBot.Commands
+﻿using ChatBot.Dtos;
+using ChatBot.Repositories.Interfaces;
+using ChatBot.Repositories.Models;
+using Telegram.Bot;
+
+namespace ChatBot.Commands
 {
 	public class SummarizeCommand : IBotCommand
 	{
@@ -17,6 +22,8 @@
 		}
 
 		public string Trigger => "/summarize";
+
+		string IBotCommand.Trigger => throw new NotImplementedException();
 
 		public async Task ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, long chatId)
 		{
@@ -51,6 +58,11 @@
 				_logger.LogError(ex, "Ошибка при создании саммари для чата {ChatId}", chatId);
 				await bot.SendTextMessageAsync(chatId, "Ошибка при создании саммари. Попробуйте позже.");
 			}
+		}
+
+		Task IBotCommand.ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, long chatId)
+		{
+			throw new NotImplementedException();
 		}
 	}
 }

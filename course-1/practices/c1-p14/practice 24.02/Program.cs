@@ -40,6 +40,8 @@ builder.Services.AddSingleton<IChatModelRepository, ChatModelRepository>();
 builder.Services.AddSingleton<IBotCommand, StatsCommand>();
 builder.Services.AddSingleton<IBotCommand, ClearCommand>();
 builder.Services.AddSingleton<IBotCommand, UndoCommand>();
+builder.Services.AddSingleton<IBotCommand, JokeCommand>();
+builder.Services.AddSingleton<IBotCommand, QuoteCommand>();
 
 var app = builder.Build();
 
