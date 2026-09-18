@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\repostories\\interface\\ichatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:repostories\\interface\\ichatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\commands\\clearcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:commands\\clearcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\repostories\\implementations\\chatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:repostories\\implementations\\chatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\commands\\quotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:commands\\quotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\commands\\jokecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:commands\\jokecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\repostories\\interface\\ichatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:repostories\\interface\\ichatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\settings\\telegramsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\dto\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:dto\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\commands\\quotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:commands\\quotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\commands\\undocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,20 +75,8 @@
       "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:dto\\telegramupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\commands\\jokecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:commands\\jokecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\commands\\clearcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:commands\\clearcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|solutionrelative:commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2E4D7AB-6F94-B4B2-E2B1-6132F209474A}|practice 24.02.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\repostories\\models\\openai.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,17 +98,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T16:56:18.148Z",
               "IsPinned": true,
@@ -116,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "TelegramUpdateProcessor.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\TelegramUpdateProcessor.cs",
               "RelativeDocumentMoniker": "Commands\\TelegramUpdateProcessor.cs",
@@ -125,12 +125,11 @@
               "ViewState": "AgIAAAcAAAAAZk0s8N0gwBAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T16:45:31.127Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "IChatApiClient.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Interface\\IChatApiClient.cs",
               "RelativeDocumentMoniker": "Repostories\\Interface\\IChatApiClient.cs",
@@ -139,8 +138,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T16:45:11.471Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -153,19 +151,68 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "TelegramMessage.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\DTO\\TelegramMessage.cs",
-              "RelativeDocumentMoniker": "DTO\\TelegramMessage.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\DTO\\TelegramMessage.cs",
-              "RelativeToolTip": "DTO\\TelegramMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Title": "TelegramSettings.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Settings\\TelegramSettings.cs",
+              "RelativeDocumentMoniker": "Settings\\TelegramSettings.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Settings\\TelegramSettings.cs",
+              "RelativeToolTip": "Settings\\TelegramSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T16:45:14.922Z",
+              "WhenOpened": "2026-03-27T16:27:19.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HelpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\HelpCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\HelpCommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\HelpCommand.cs",
+              "RelativeToolTip": "Commands\\HelpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T17:24:05.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuoteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\QuoteCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\QuoteCommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\QuoteCommand.cs",
+              "RelativeToolTip": "Commands\\QuoteCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T16:19:20.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JokeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\JokeCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\JokeCommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\JokeCommand.cs",
+              "RelativeToolTip": "Commands\\JokeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T16:17:11.911Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ClearCommand.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\ClearCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\ClearCommand.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\ClearCommand.cs",
+              "RelativeToolTip": "Commands\\ClearCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:47:21.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ChatModelRepository.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Implementations\\ChatModelRepository.cs",
               "RelativeDocumentMoniker": "Repostories\\Implementations\\ChatModelRepository.cs",
@@ -178,33 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HttpChatApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Implementations\\HttpChatApiClient.cs",
-              "RelativeDocumentMoniker": "Repostories\\Implementations\\HttpChatApiClient.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Implementations\\HttpChatApiClient.cs",
-              "RelativeToolTip": "Repostories\\Implementations\\HttpChatApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T17:39:56.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IChatModelRepository.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Interface\\IChatModelRepository.cs",
-              "RelativeDocumentMoniker": "Repostories\\Interface\\IChatModelRepository.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Interface\\IChatModelRepository.cs",
-              "RelativeToolTip": "Repostories\\Interface\\IChatModelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T17:27:06.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ChatApiSettings.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Settings\\ChatApiSettings.cs",
               "RelativeDocumentMoniker": "Settings\\ChatApiSettings.cs",
@@ -212,38 +233,47 @@
               "RelativeToolTip": "Settings\\ChatApiSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:26:27.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T16:26:27.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TelegramSettings.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Settings\\TelegramSettings.cs",
-              "RelativeDocumentMoniker": "Settings\\TelegramSettings.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Settings\\TelegramSettings.cs",
-              "RelativeToolTip": "Settings\\TelegramSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IChatModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Interface\\IChatModelRepository.cs",
+              "RelativeDocumentMoniker": "Repostories\\Interface\\IChatModelRepository.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Interface\\IChatModelRepository.cs",
+              "RelativeToolTip": "Repostories\\Interface\\IChatModelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:27:19.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T17:27:06.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "QuoteCommand.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\QuoteCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\QuoteCommand.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\QuoteCommand.cs",
-              "RelativeToolTip": "Commands\\QuoteCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "HttpChatApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Implementations\\HttpChatApiClient.cs",
+              "RelativeDocumentMoniker": "Repostories\\Implementations\\HttpChatApiClient.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Repostories\\Implementations\\HttpChatApiClient.cs",
+              "RelativeToolTip": "Repostories\\Implementations\\HttpChatApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:19:20.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T17:39:56.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
+              "Title": "TelegramMessage.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\DTO\\TelegramMessage.cs",
+              "RelativeDocumentMoniker": "DTO\\TelegramMessage.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\DTO\\TelegramMessage.cs",
+              "RelativeToolTip": "DTO\\TelegramMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T16:45:14.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UndoCommand.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\UndoCommand.cs",
               "RelativeDocumentMoniker": "Commands\\UndoCommand.cs",
@@ -251,12 +281,11 @@
               "RelativeToolTip": "Commands\\UndoCommand.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:20:11.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T16:20:11.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "SummarizeCommand.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\SummarizeCommand.cs",
               "RelativeDocumentMoniker": "Commands\\SummarizeCommand.cs",
@@ -264,12 +293,11 @@
               "RelativeToolTip": "Commands\\SummarizeCommand.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:19:38.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T16:19:38.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "StatsCommand.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\StatsCommand.cs",
               "RelativeDocumentMoniker": "Commands\\StatsCommand.cs",
@@ -277,12 +305,11 @@
               "RelativeToolTip": "Commands\\StatsCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T16:40:36.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T16:40:36.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "TelegramUpdate.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\DTO\\TelegramUpdate.cs",
               "RelativeDocumentMoniker": "DTO\\TelegramUpdate.cs",
@@ -290,25 +317,11 @@
               "RelativeToolTip": "DTO\\TelegramUpdate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T16:46:00.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T16:46:00.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "JokeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\JokeCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\JokeCommand.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\JokeCommand.cs",
-              "RelativeToolTip": "Commands\\JokeCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:17:11.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "StartCommand.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\StartCommand.cs",
               "RelativeDocumentMoniker": "Commands\\StartCommand.cs",
@@ -316,12 +329,11 @@
               "RelativeToolTip": "Commands\\StartCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T17:24:11.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T17:24:11.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UpdateController.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Controllers\\UpdateController.cs",
               "RelativeDocumentMoniker": "Controllers\\UpdateController.cs",
@@ -330,30 +342,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T16:45:49.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ClearCommand.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\ClearCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\ClearCommand.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\ClearCommand.cs",
-              "RelativeToolTip": "Commands\\ClearCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T16:47:21.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HelpCommand.cs",
-              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\HelpCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\HelpCommand.cs",
-              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-1\\practices\\c1-p14\\practice 24.02\\Commands\\HelpCommand.cs",
-              "RelativeToolTip": "Commands\\HelpCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T17:24:05.891Z"
             },
             {
               "$type": "Document",
