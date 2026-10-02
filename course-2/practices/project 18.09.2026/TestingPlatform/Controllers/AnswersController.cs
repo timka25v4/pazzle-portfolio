@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace TestingPlatform.Controllers;
+namespace practice.Controllers;
 
 [ApiController]
 [Route("api/[controller]")] // базовый маршрут: /api/answers

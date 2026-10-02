@@ -3,8 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2A0E8A7-B207-4975-8722-04BE48F02A63}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2A0E8A7-B207-4975-8722-04BE48F02A63}|TestingPlatform.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\models\\classgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:models\\classgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\models\\classstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:models\\classstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\models\\classuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:models\\classuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\controllers\\answerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:controllers\\answerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\controllers\\testscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:controllers\\testscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\migrations\\20260925193137_initstudents.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:migrations\\20260925193137_initstudents.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\migrations\\20260925193137_initstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:migrations\\20260925193137_initstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timka\\desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\testingplatform\\migrations\\20260926115549_addgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:migrations\\20260926115549_addgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,16 +82,190 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClassUser.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\ClassUser.cs",
+              "RelativeDocumentMoniker": "Models\\ClassUser.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\ClassUser.cs",
+              "RelativeToolTip": "Models\\ClassUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T11:49:42.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T16:43:12.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClassStudents.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\ClassStudents.cs",
+              "RelativeDocumentMoniker": "Models\\ClassStudents.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\ClassStudents.cs",
+              "RelativeToolTip": "Models\\ClassStudents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T16:30:16.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAADIAAABAzHoxlCcpwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T19:29:05.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-25T06:59:13.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestsController.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Controllers\\TestsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestsController.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Controllers\\TestsController.cs",
+              "RelativeToolTip": "Controllers\\TestsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T19:29:07.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\UserRole.cs",
+              "RelativeToolTip": "Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T11:59:00.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassGroup.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\ClassGroup.cs",
+              "RelativeDocumentMoniker": "Models\\ClassGroup.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Models\\ClassGroup.cs",
+              "RelativeToolTip": "Models\\ClassGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T08:43:00.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Controllers\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuestionsController.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Controllers\\QuestionsController.cs",
+              "RelativeToolTip": "Controllers\\QuestionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T19:29:03.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260925193137_InitStudents.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20260925193137_InitStudents.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260925193137_InitStudents.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20260925193137_InitStudents.cs",
+              "RelativeToolTip": "Migrations\\20260925193137_InitStudents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T19:31:37.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-18T14:14:35.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-18T14:14:35.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnswersController.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Controllers\\AnswersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnswersController.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Controllers\\AnswersController.cs",
+              "RelativeToolTip": "Controllers\\AnswersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T19:29:04.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260926115549_AddGroup.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20260926115549_AddGroup.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260926115549_AddGroup.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20260926115549_AddGroup.cs",
+              "RelativeToolTip": "Migrations\\20260926115549_AddGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T11:55:50.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260925193137_InitStudents.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20260925193137_InitStudents.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260925193137_InitStudents.Designer.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20260925193137_InitStudents.Designer.cs",
+              "RelativeToolTip": "Migrations\\20260925193137_InitStudents.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T19:47:28.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEcAAADA7bWg9wwwwAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T19:47:29.323Z"
             }
           ]
         }
