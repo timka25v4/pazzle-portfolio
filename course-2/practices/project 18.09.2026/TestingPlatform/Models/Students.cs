@@ -25,5 +25,7 @@ public class Student
 	public int UserId { get; set; }
 	public User User { get; set; }
 
+	public List<Attempt> Attempts { get; set; } = new();
+	public List<TestResult> TestResults { get; set; } = new();
 }
 

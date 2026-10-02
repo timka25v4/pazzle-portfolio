@@ -1,5 +1,6 @@
 ﻿using practice.Models;
 using Microsoft.EntityFrameworkCore;
+using practice.Enums;
 
 namespace practice.Data;
 
@@ -11,6 +12,14 @@ public class AppDbContext : DbContext
 	public DbSet<Group> Groups => Set<Group>();
 	public DbSet<Direction> Directions => Set<Direction>();
 	public DbSet<Course> Courses => Set<Course>();
+	public DbSet<Test> Tests { get; set; }
+	public DbSet<Question> Questions { get; set; }
+	public DbSet<Answer> Answers { get; set; }
+	public DbSet<Attempt> Attempts { get; set; }
+	public DbSet<UserAttemptAnswer> UserAttemptAnswers { get; set; }
+	public DbSet<UserSelectedOption> UserSelectedOptions { get; set; }
+	public DbSet<UserTextAnswer> UserTextAnswers { get; set; }
+	public DbSet<TestResult> TestResults { get; set; }
 
 	public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -74,6 +83,39 @@ public class AppDbContext : DbContext
 				.HasForeignKey(x => x.ProjectId)
 				.OnDelete(DeleteBehavior.Restrict);
 		});
+		modelBuilder.Entity<Attempt>(e =>
+		{
+			e.Property(x => x.StartedAt).HasDefaultValueSql("CURRENT_TIMESTAMP");
+			e.HasOne(x => x.Test).WithMany().HasForeignKey(x => x.TestId).OnDelete(DeleteBehavior.Restrict);
+			e.HasOne(x => x.Student).WithMany(s => s.Attempts).HasForeignKey(x => x.StudentId).OnDelete(DeleteBehavior.Cascade);
+		});
+
+		modelBuilder.Entity<UserAttemptAnswer>(e =>
+		{
+			e.HasIndex(x => new { x.AttemptId, x.QuestionId }).IsUnique();
+			e.HasOne(x => x.Attempt).WithMany(a => a.UserAttemptAnswers).HasForeignKey(x => x.AttemptId).OnDelete(DeleteBehavior.Cascade);
+			e.HasOne(x => x.Question).WithMany().HasForeignKey(x => x.QuestionId).OnDelete(DeleteBehavior.Restrict);
+		});
+
+		modelBuilder.Entity<UserSelectedOption>(e =>
+		{
+			e.HasOne(x => x.UserAttemptAnswer).WithMany(u => u.UserSelectedOptions).HasForeignKey(x => x.UserAttemptAnswerId).OnDelete(DeleteBehavior.Cascade);
+			e.HasOne(x => x.Answer).WithMany().HasForeignKey(x => x.AnswerId).OnDelete(DeleteBehavior.Restrict);
+		});
+
+		modelBuilder.Entity<UserTextAnswer>(e =>
+		{
+			e.HasOne(x => x.UserAttemptAnswer).WithOne(u => u.UserTextAnswer).HasForeignKey<UserTextAnswer>(x => x.UserAttemptAnswerId).OnDelete(DeleteBehavior.Cascade);
+		});
+
+		modelBuilder.Entity<TestResult>(e =>
+		{
+			e.HasIndex(x => new { x.TestId, x.StudentId, x.AttemptId }).IsUnique();
+			e.HasOne(x => x.Test).WithMany().HasForeignKey(x => x.TestId).OnDelete(DeleteBehavior.Restrict);
+			e.HasOne(x => x.Attempt).WithMany().HasForeignKey(x => x.AttemptId).OnDelete(DeleteBehavior.Cascade);
+			e.HasOne(x => x.Student).WithMany(s => s.TestResults).HasForeignKey(x => x.StudentId).OnDelete(DeleteBehavior.Cascade);
+		});
+
 	}
 }
 
