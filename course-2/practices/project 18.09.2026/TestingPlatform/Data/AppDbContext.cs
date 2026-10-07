@@ -82,7 +82,52 @@ public class AppDbContext : DbContext
 				.WithMany(p => p.Groups)
 				.HasForeignKey(x => x.ProjectId)
 				.OnDelete(DeleteBehavior.Restrict);
+
 		});
+
+		modelBuilder.Entity<Test>(e =>
+		{
+			e.Property(x => x.IsRepeatable).HasDefaultValue(false);
+			e.Property(x => x.IsPublic).HasDefaultValue(false);
+			e.Property(x => x.CreatedAt).HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+			e.Property(x => x.Type).HasConversion<string>();
+
+			e.HasMany(t => t.Students).WithMany().UsingEntity(j => j.ToTable("test_students"));
+			e.HasMany(t => t.Projects).WithMany().UsingEntity(j => j.ToTable("test_projects"));
+			e.HasMany(t => t.Courses).WithMany().UsingEntity(j => j.ToTable("test_courses"));
+			e.HasMany(t => t.Groups).WithMany().UsingEntity(j => j.ToTable("test_groups"));
+			e.HasMany(t => t.Directions).WithMany().UsingEntity(j => j.ToTable("test_directions"));
+		});
+
+		modelBuilder.Entity<Question>(e =>
+		{
+			e.Property(x => x.Text).IsRequired();
+
+			e.Property(x => x.Description).HasMaxLength(2000);
+
+			e.Property(x => x.AnswerType).HasConversion<string>();
+
+			e.Property(x => x.IsScoring).HasDefaultValue(true);
+
+			e.HasIndex(x => new { x.TestId, x.Number }).IsUnique();
+
+			e.HasOne(x => x.Test)
+			 .WithMany(t => t.Questions)
+			 .HasForeignKey(x => x.TestId)
+			 .OnDelete(DeleteBehavior.Cascade);
+		});
+
+		modelBuilder.Entity<Answer>(e =>
+		{
+			e.Property(x => x.Text).IsRequired();
+
+			e.HasOne(x => x.Question)
+			 .WithMany(q => q.Answers)
+			 .HasForeignKey(x => x.QuestionId)
+			 .OnDelete(DeleteBehavior.Cascade);
+		});
+
 		modelBuilder.Entity<Attempt>(e =>
 		{
 			e.Property(x => x.StartedAt).HasDefaultValueSql("CURRENT_TIMESTAMP");

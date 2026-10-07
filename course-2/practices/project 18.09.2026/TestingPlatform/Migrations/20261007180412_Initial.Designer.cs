@@ -11,7 +11,7 @@ using practice.Data;
 namespace TestingPlatform.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20261002142529_Initial")]
+    [Migration("20261007180412_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -30,17 +30,27 @@ namespace TestingPlatform.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("TestId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
                     b.HasIndex("Name")
                         .IsUnique();
 
+                    b.ToTable("Courses");
+                });
+
+            modelBuilder.Entity("CourseTest", b =>
+                {
+                    b.Property<int>("CoursesId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("TestId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("CoursesId", "TestId");
+
                     b.HasIndex("TestId");
 
-                    b.ToTable("Courses");
+                    b.ToTable("test_courses", (string)null);
                 });
 
             modelBuilder.Entity("Direction", b =>
@@ -53,17 +63,27 @@ namespace TestingPlatform.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("TestId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
                     b.HasIndex("Name")
                         .IsUnique();
 
+                    b.ToTable("Directions");
+                });
+
+            modelBuilder.Entity("DirectionTest", b =>
+                {
+                    b.Property<int>("DirectionsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("TestId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("DirectionsId", "TestId");
+
                     b.HasIndex("TestId");
 
-                    b.ToTable("Directions");
+                    b.ToTable("test_directions", (string)null);
                 });
 
             modelBuilder.Entity("Group", b =>
@@ -85,9 +105,6 @@ namespace TestingPlatform.Migrations
                     b.Property<int>("ProjectId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("TestId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CourseId");
@@ -99,9 +116,22 @@ namespace TestingPlatform.Migrations
 
                     b.HasIndex("ProjectId");
 
+                    b.ToTable("Groups");
+                });
+
+            modelBuilder.Entity("GroupTest", b =>
+                {
+                    b.Property<int>("GroupsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("TestId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("GroupsId", "TestId");
+
                     b.HasIndex("TestId");
 
-                    b.ToTable("Groups");
+                    b.ToTable("test_groups", (string)null);
                 });
 
             modelBuilder.Entity("Project", b =>
@@ -114,17 +144,27 @@ namespace TestingPlatform.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("TestId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
                     b.HasIndex("Name")
                         .IsUnique();
 
+                    b.ToTable("Projects");
+                });
+
+            modelBuilder.Entity("ProjectTest", b =>
+                {
+                    b.Property<int>("ProjectsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("TestId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("ProjectsId", "TestId");
+
                     b.HasIndex("TestId");
 
-                    b.ToTable("Projects");
+                    b.ToTable("test_projects", (string)null);
                 });
 
             modelBuilder.Entity("Student", b =>
@@ -141,9 +181,6 @@ namespace TestingPlatform.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("TestId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("UserId")
                         .HasColumnType("INTEGER");
 
@@ -155,12 +192,25 @@ namespace TestingPlatform.Migrations
 
                     b.HasIndex("GroupId");
 
-                    b.HasIndex("TestId");
-
                     b.HasIndex("UserId")
                         .IsUnique();
 
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("StudentTest", b =>
+                {
+                    b.Property<int>("StudentsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("TestId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("StudentsId", "TestId");
+
+                    b.HasIndex("TestId");
+
+                    b.ToTable("test_students", (string)null);
                 });
 
             modelBuilder.Entity("practice.Models.Answer", b =>
@@ -224,6 +274,26 @@ namespace TestingPlatform.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("AnswerType")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsScoring")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER")
+                        .HasDefaultValue(true);
+
+                    b.Property<int?>("MaxScore")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Number")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("TestId")
                         .HasColumnType("INTEGER");
 
@@ -233,7 +303,8 @@ namespace TestingPlatform.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TestId");
+                    b.HasIndex("TestId", "Number")
+                        .IsUnique();
 
                     b.ToTable("Questions");
                 });
@@ -244,11 +315,10 @@ namespace TestingPlatform.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("AnswerType")
-                        .HasColumnType("INTEGER");
-
                     b.Property<DateTimeOffset>("CreatedAt")
-                        .HasColumnType("TEXT");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
                     b.Property<DateTimeOffset>("Deadline")
                         .HasColumnType("TEXT");
@@ -257,19 +327,23 @@ namespace TestingPlatform.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("DurationMinutes")
+                    b.Property<int?>("DurationMinutes")
                         .HasColumnType("INTEGER");
 
                     b.Property<bool>("IsPublic")
-                        .HasColumnType("INTEGER");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER")
+                        .HasDefaultValue(false);
 
                     b.Property<bool>("IsRepeatable")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER")
+                        .HasDefaultValue(false);
+
+                    b.Property<int?>("MaxAttempts")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("MaxAttempts")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("PassingScore")
+                    b.Property<int?>("PassingScore")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTimeOffset>("PublishedAt")
@@ -279,8 +353,9 @@ namespace TestingPlatform.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Type")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
@@ -376,12 +451,17 @@ namespace TestingPlatform.Migrations
                     b.Property<int>("QuestionId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int?>("QuestionId1")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("ScoreAwarded")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
                     b.HasIndex("QuestionId");
+
+                    b.HasIndex("QuestionId1");
 
                     b.HasIndex("AttemptId", "QuestionId")
                         .IsUnique();
@@ -398,12 +478,17 @@ namespace TestingPlatform.Migrations
                     b.Property<int>("AnswerId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int?>("AnswerId1")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("UserAttemptAnswerId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
                     b.HasIndex("AnswerId");
+
+                    b.HasIndex("AnswerId1");
 
                     b.HasIndex("UserAttemptAnswerId");
 
@@ -431,18 +516,34 @@ namespace TestingPlatform.Migrations
                     b.ToTable("UserTextAnswers");
                 });
 
-            modelBuilder.Entity("Course", b =>
+            modelBuilder.Entity("CourseTest", b =>
                 {
+                    b.HasOne("Course", null)
+                        .WithMany()
+                        .HasForeignKey("CoursesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("practice.Models.Test", null)
-                        .WithMany("Courses")
-                        .HasForeignKey("TestId");
+                        .WithMany()
+                        .HasForeignKey("TestId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
-            modelBuilder.Entity("Direction", b =>
+            modelBuilder.Entity("DirectionTest", b =>
                 {
+                    b.HasOne("Direction", null)
+                        .WithMany()
+                        .HasForeignKey("DirectionsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("practice.Models.Test", null)
-                        .WithMany("Directions")
-                        .HasForeignKey("TestId");
+                        .WithMany()
+                        .HasForeignKey("TestId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Group", b =>
@@ -465,10 +566,6 @@ namespace TestingPlatform.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("practice.Models.Test", null)
-                        .WithMany("Groups")
-                        .HasForeignKey("TestId");
-
                     b.Navigation("Course");
 
                     b.Navigation("Direction");
@@ -476,11 +573,34 @@ namespace TestingPlatform.Migrations
                     b.Navigation("Project");
                 });
 
-            modelBuilder.Entity("Project", b =>
+            modelBuilder.Entity("GroupTest", b =>
                 {
+                    b.HasOne("Group", null)
+                        .WithMany()
+                        .HasForeignKey("GroupsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("practice.Models.Test", null)
-                        .WithMany("Projects")
-                        .HasForeignKey("TestId");
+                        .WithMany()
+                        .HasForeignKey("TestId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ProjectTest", b =>
+                {
+                    b.HasOne("Project", null)
+                        .WithMany()
+                        .HasForeignKey("ProjectsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("practice.Models.Test", null)
+                        .WithMany()
+                        .HasForeignKey("TestId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Student", b =>
@@ -489,10 +609,6 @@ namespace TestingPlatform.Migrations
                         .WithMany("Students")
                         .HasForeignKey("GroupId");
 
-                    b.HasOne("practice.Models.Test", null)
-                        .WithMany("Students")
-                        .HasForeignKey("TestId");
-
                     b.HasOne("practice.Models.User", "User")
                         .WithOne("Student")
                         .HasForeignKey("Student", "UserId")
@@ -500,6 +616,21 @@ namespace TestingPlatform.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("StudentTest", b =>
+                {
+                    b.HasOne("Student", null)
+                        .WithMany()
+                        .HasForeignKey("StudentsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("practice.Models.Test", null)
+                        .WithMany()
+                        .HasForeignKey("TestId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("practice.Models.Answer", b =>
@@ -584,6 +715,10 @@ namespace TestingPlatform.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("practice.Models.Question", null)
+                        .WithMany("UserAttemptAnswers")
+                        .HasForeignKey("QuestionId1");
+
                     b.Navigation("Attempt");
 
                     b.Navigation("Question");
@@ -596,6 +731,10 @@ namespace TestingPlatform.Migrations
                         .HasForeignKey("AnswerId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.HasOne("practice.Models.Answer", null)
+                        .WithMany("UserSelectedOptions")
+                        .HasForeignKey("AnswerId1");
 
                     b.HasOne("practice.Models.UserAttemptAnswer", "UserAttemptAnswer")
                         .WithMany("UserSelectedOptions")
@@ -646,6 +785,11 @@ namespace TestingPlatform.Migrations
                     b.Navigation("TestResults");
                 });
 
+            modelBuilder.Entity("practice.Models.Answer", b =>
+                {
+                    b.Navigation("UserSelectedOptions");
+                });
+
             modelBuilder.Entity("practice.Models.Attempt", b =>
                 {
                     b.Navigation("UserAttemptAnswers");
@@ -654,21 +798,13 @@ namespace TestingPlatform.Migrations
             modelBuilder.Entity("practice.Models.Question", b =>
                 {
                     b.Navigation("Answers");
+
+                    b.Navigation("UserAttemptAnswers");
                 });
 
             modelBuilder.Entity("practice.Models.Test", b =>
                 {
-                    b.Navigation("Courses");
-
-                    b.Navigation("Directions");
-
-                    b.Navigation("Groups");
-
-                    b.Navigation("Projects");
-
                     b.Navigation("Questions");
-
-                    b.Navigation("Students");
                 });
 
             modelBuilder.Entity("practice.Models.User", b =>
