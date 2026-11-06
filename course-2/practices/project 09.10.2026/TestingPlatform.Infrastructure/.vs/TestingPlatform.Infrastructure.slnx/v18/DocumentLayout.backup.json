@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5892C349-E824-43CD-8CE2-CA3B6D9AF49B}|TestingPlatform.Infrastructure.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.infrastructure\\testingplatform.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5892C349-E824-43CD-8CE2-CA3B6D9AF49B}|TestingPlatform.Infrastructure.csproj|solutionrelative:testingplatform.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestingPlatform.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\TestingPlatform.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "TestingPlatform.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\TestingPlatform.Infrastructure.csproj",
+              "RelativeToolTip": "TestingPlatform.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-16T14:19:37.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

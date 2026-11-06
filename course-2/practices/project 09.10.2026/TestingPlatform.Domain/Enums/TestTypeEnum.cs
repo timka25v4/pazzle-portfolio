@@ -1,0 +1,7 @@
+﻿namespace TestingPlatform.Domain.Enums;
+
+public enum TestType
+{
+	Required = 1,
+	Optional = 2
+}
