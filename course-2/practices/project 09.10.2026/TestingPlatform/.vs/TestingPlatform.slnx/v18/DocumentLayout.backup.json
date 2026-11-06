@@ -3,8 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9B225C26-DDAC-5B12-E8BD-47F97EE7C944}|..\\TestingPlatform.Infrastructure\\TestingPlatform.Infrastructure.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.infrastructure\\repositories\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD08D77-4530-BD01-B2EA-0829E6886BC0}|..\\TestingPlatform.Application\\TestingPlatform.Application.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.application\\dto\\testdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD08D77-4530-BD01-B2EA-0829E6886BC0}|..\\TestingPlatform.Application\\TestingPlatform.Application.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B225C26-DDAC-5B12-E8BD-47F97EE7C944}|..\\TestingPlatform.Infrastructure\\TestingPlatform.Infrastructure.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.infrastructure\\mappings\\testprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD08D77-4530-BD01-B2EA-0829E6886BC0}|..\\TestingPlatform.Application\\TestingPlatform.Application.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.application\\dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD08D77-4530-BD01-B2EA-0829E6886BC0}|..\\TestingPlatform.Application\\TestingPlatform.Application.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.application\\interfaces\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A602E2B1-ADFA-0FE7-1A7D-C8F9240EADB1}|TestingPlatform.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -28,9 +46,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DD08D77-4530-BD01-B2EA-0829E6886BC0}|..\\TestingPlatform.Application\\TestingPlatform.Application.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.application\\responses\\group\\groupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DD08D77-4530-BD01-B2EA-0829E6886BC0}|..\\TestingPlatform.Application\\TestingPlatform.Application.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DD08D77-4530-BD01-B2EA-0829E6886BC0}|..\\TestingPlatform.Application\\TestingPlatform.Application.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.application\\dto\\groupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -76,9 +91,6 @@
       "AbsoluteMoniker": "D:0:0:{6DD08D77-4530-BD01-B2EA-0829E6886BC0}|..\\TestingPlatform.Application\\TestingPlatform.Application.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.application\\dto\\directiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DD08D77-4530-BD01-B2EA-0829E6886BC0}|..\\TestingPlatform.Application\\TestingPlatform.Application.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.application\\dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B225C26-DDAC-5B12-E8BD-47F97EE7C944}|..\\TestingPlatform.Infrastructure\\TestingPlatform.Infrastructure.csproj|c:\\users\\timur\\desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\testingplatform.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -114,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,28 +134,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GroupsController.cs",
-              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\GroupsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GroupsController.cs",
-              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\GroupsController.cs",
-              "RelativeToolTip": "Controllers\\GroupsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Repositories\\TestRepository.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Repositories\\TestRepository.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Repositories\\TestRepository.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Infrastructure\\Repositories\\TestRepository.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAIwIIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T14:25:56.221Z",
+              "WhenOpened": "2026-11-06T13:57:13.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateGroupRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Requests\\Group\\CreateGroupRequest.cs",
-              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\Requests\\Group\\CreateGroupRequest.cs",
-              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Requests\\Group\\CreateGroupRequest.cs",
-              "RelativeToolTip": "..\\TestingPlatform.Application\\Requests\\Group\\CreateGroupRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TestProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Mappings\\TestProfile.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Mappings\\TestProfile.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Mappings\\TestProfile.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Infrastructure\\Mappings\\TestProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T19:57:23.286Z",
+              "WhenOpened": "2026-11-06T13:53:46.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\TestDto.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\DTO\\TestDto.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\TestDto.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Application\\DTO\\TestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T13:49:13.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T14:14:35.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\CourseDto.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\DTO\\CourseDto.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\CourseDto.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Application\\DTO\\CourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T19:22:24.433Z",
               "EditorCaption": ""
             },
             {
@@ -152,85 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-18T14:14:35.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T19:29:05.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateStudentRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Requests\\Student\\CreateStudentRequest.cs",
-              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\Requests\\Student\\CreateStudentRequest.cs",
-              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Requests\\Student\\CreateStudentRequest.cs",
-              "RelativeToolTip": "..\\TestingPlatform.Application\\Requests\\Student\\CreateStudentRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T08:11:38.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Answer.cs",
-              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Domain\\Models\\Answer.cs",
-              "RelativeDocumentMoniker": "..\\TestingPlatform.Domain\\Models\\Answer.cs",
-              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Domain\\Models\\Answer.cs",
-              "RelativeToolTip": "..\\TestingPlatform.Domain\\Models\\Answer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T08:11:23.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "..\\TestingPlatform.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T08:07:19.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GroupResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Responses\\Group\\GroupResponse.cs",
-              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\Responses\\Group\\GroupResponse.cs",
-              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Responses\\Group\\GroupResponse.cs",
-              "RelativeToolTip": "..\\TestingPlatform.Application\\Responses\\Group\\GroupResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T08:06:31.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\UserDto.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\DTO\\UserDto.cs",
@@ -243,7 +216,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Interfaces\\ITestRepository.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\Interfaces\\ITestRepository.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Interfaces\\ITestRepository.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Application\\Interfaces\\ITestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T13:59:27.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T19:29:05.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateStudentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Requests\\Student\\CreateStudentRequest.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\Requests\\Student\\CreateStudentRequest.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Requests\\Student\\CreateStudentRequest.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Application\\Requests\\Student\\CreateStudentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:11:38.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateGroupRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Requests\\Group\\CreateGroupRequest.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\Requests\\Group\\CreateGroupRequest.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Requests\\Group\\CreateGroupRequest.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Application\\Requests\\Group\\CreateGroupRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T19:57:23.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "Controllers\\GroupsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T14:25:56.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Domain\\Models\\Answer.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Domain\\Models\\Answer.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Domain\\Models\\Answer.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Domain\\Models\\Answer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:11:23.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:07:19.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GroupResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Responses\\Group\\GroupResponse.cs",
+              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\Responses\\Group\\GroupResponse.cs",
+              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Responses\\Group\\GroupResponse.cs",
+              "RelativeToolTip": "..\\TestingPlatform.Application\\Responses\\Group\\GroupResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:06:31.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "GroupDto.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\GroupDto.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\DTO\\GroupDto.cs",
@@ -251,12 +321,11 @@
               "RelativeToolTip": "..\\TestingPlatform.Application\\DTO\\GroupDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T19:25:49.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T19:25:49.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "UpdateGroupRequest.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\Requests\\Group\\UpdateGroupRequest.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\Requests\\Group\\UpdateGroupRequest.cs",
@@ -264,12 +333,11 @@
               "RelativeToolTip": "..\\TestingPlatform.Application\\Requests\\Group\\UpdateGroupRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T08:04:22.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-06T08:04:22.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "GroupProfile.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Mappings\\GroupProfile.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Mappings\\GroupProfile.cs",
@@ -277,12 +345,11 @@
               "RelativeToolTip": "..\\TestingPlatform.Infrastructure\\Mappings\\GroupProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T19:52:54.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T19:52:54.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "StudentDto.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\StudentDto.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\DTO\\StudentDto.cs",
@@ -290,12 +357,11 @@
               "RelativeToolTip": "..\\TestingPlatform.Application\\DTO\\StudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T07:42:07.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-06T07:42:07.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CourseProfile.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Mappings\\CourseProfile.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Mappings\\CourseProfile.cs",
@@ -307,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Repositories\\StudentRepository.cs",
@@ -315,12 +381,11 @@
               "RelativeToolTip": "..\\TestingPlatform.Infrastructure\\Repositories\\StudentRepository.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAYwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T19:53:35.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T19:53:35.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "DirectionProfile.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Mappings\\DirectionProfile.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Mappings\\DirectionProfile.cs",
@@ -332,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Mappings\\UserProfile.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Mappings\\UserProfile.cs",
@@ -344,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "StudentProfile.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Mappings\\StudentProfile.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Mappings\\StudentProfile.cs",
@@ -356,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "ProjectProfile.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Mappings\\ProjectProfile.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Mappings\\ProjectProfile.cs",
@@ -368,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "TestingPlatform.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\TestingPlatform.Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\TestingPlatform.Infrastructure.csproj",
@@ -380,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "TestingPlatform.csproj",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\TestingPlatform.csproj",
               "RelativeDocumentMoniker": "TestingPlatform.csproj",
@@ -392,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "TestingPlatform.Application.csproj",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\TestingPlatform.Application.csproj",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\TestingPlatform.Application.csproj",
@@ -404,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "DirectionDto.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\DirectionDto.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\DTO\\DirectionDto.cs",
@@ -416,19 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CourseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\CourseDto.cs",
-              "RelativeDocumentMoniker": "..\\TestingPlatform.Application\\DTO\\CourseDto.cs",
-              "ToolTip": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Application\\DTO\\CourseDto.cs",
-              "RelativeToolTip": "..\\TestingPlatform.Application\\DTO\\CourseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T19:22:24.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "..\\TestingPlatform.Infrastructure\\Data\\AppDbContext.cs",
@@ -440,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -452,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "QuestionsController.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\QuestionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\QuestionsController.cs",
@@ -464,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "AnswersController.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\AnswersController.cs",
               "RelativeDocumentMoniker": "Controllers\\AnswersController.cs",
@@ -476,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "TestsController.cs",
               "DocumentMoniker": "C:\\Users\\Timur\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 09.10.2026\\TestingPlatform\\Controllers\\TestsController.cs",
               "RelativeDocumentMoniker": "Controllers\\TestsController.cs",
@@ -488,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "20261002133243_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20261002133243_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20261002133243_InitialCreate.cs",
@@ -499,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "20261002135814_Initial.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20261002135814_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20261002135814_Initial.cs",
@@ -511,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "20261002131253_UpdateModelSchema.cs",
               "DocumentMoniker": "C:\\Users\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20261002131253_UpdateModelSchema.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\timka\\Desktop\\pazzle-portfolio\\course-2\\practices\\project 18.09.2026\\TestingPlatform\\Migrations\\20261002131253_UpdateModelSchema.cs",
